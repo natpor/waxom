@@ -1,0 +1,128 @@
+img{
+  height: 90px;
+  width: 90px;
+  background: rgb(68,81,97)
+}
+.WAxom{
+  background:url(mounting.png);
+  background-size:cover;
+  color:white;
+  padding:40px 375px;
+  display:grid;
+  grid-template-rows:auto 1fr;
+ font-weight:900;
+ height: 596px;
+ align-items:center;
+}
+.Waxom .navigation{
+  display:grid;
+  grid-template-columns: 1fr auto auto;
+  align-items:center;
+  grid-gap:64px;
+}
+.Waxom ul{
+
+
+  font-size:11px;
+}
+.Waxom li{
+  display:inline-block;
+  padding:16px;
+  text-transform: capitalize;
+}
+.Waxom .text{
+  text-align:center;
+}
+h1{
+  font-size:25px;
+}
+.Waxom .buttons{
+  font-size:20px;
+
+}
+.privilagen {
+  display:grid;
+  grid-template-columns:1fr 1fr 1fr 1fr;
+  padding: 76px 377px;
+
+}
+.privilagen  *{
+  text-align:center;
+}
+.privilagen .card:hover{
+  color:rgb(198,178,154)
+}
+.privilagen .card:hover .hr{
+  background:rgb(198,178,154)
+}
+.privilagen .card p{
+  color:black;
+  line-height: 20px;
+  margin-bottom: 31px;
+}
+.privilagen .hr{
+  height:2px;
+  width:70px;
+  background:lightgray;
+  margin:auto;
+}
+.privilagen i{
+  font-size:51px;
+  margin-bottom: 28px;
+}
+.privilagen h2{
+  font-size:22px;
+  margin-bottom: 28px;
+}
+.idea{
+  background:white;
+  background-size:cover;
+  color:black;
+  padding:40px 375px;
+  display:grid;
+  grid-template-rows:auto 1fr;
+ font-weight:900;
+ height: 596px;
+ align-items:center;
+}
+.idea .text{
+  text-align:center;
+  color:black;
+}
+.idea img{
+  height:488px;
+  width:1200px;
+}
+.reclam{
+  display:grid;
+  grid-template-columns:1fr 1fr;
+}
+.project{
+  background:white;
+  background-size:cover;
+  color:black;
+  padding:40px 375px;
+  display:grid;
+  grid-template-rows:auto 1fr;
+  font-weight:900;
+  height: 596px;
+  align-items:center;
+}
+.project .title{
+  text-align:center;
+}
+.project .cardlist{
+  display:grid;
+  grid-template-columns:1fr 1fr 1fr ;
+}
+.text{
+  background:white;
+  background-size:cover;
+  color:black;
+  padding:40px 375px;
+  display:grid;
+  grid-template-rows:auto 1fr;
+  font-weight:900;
+  height: 596px;
+  align-items:center;
+}
